@@ -27,7 +27,7 @@ def main():
         'G': 10}, 'B': {'G': 5}, 'C': {'G': 1}}
 
     uniform_cost_search(graph, 'S', 'G')
-    print(all_path_cost)
+    # print(all_path_cost)
     optimal_path(graph)
 
 
